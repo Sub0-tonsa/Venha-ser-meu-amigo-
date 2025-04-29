@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Venha ser meu Amigo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Venha ser meu amigo na steam</h2>
+
+    <form id="formulario">
+      <label for="nome">Nome:</label>
+      <input type="nome" id="nome" name="nome" required>
+
+      <label for="senha">Codigo:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="video" class="hidden">
+      <video id="meu-video" width="560" height="315" controls autoplay>
+        <source src="/video/video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+  </div>
+
+  <script src="video.js"></script>
+</body>
+</html>
